@@ -280,6 +280,8 @@
                                                     data-bs-slide-to="3"></button>
                                                 <button type="button" data-bs-target="#demo"
                                                     data-bs-slide-to="4"></button>
+                                                <button type="button" data-bs-target="#demo"
+                                                    data-bs-slide-to="5"></button>
                                             </div>
 
                                             <!-- The slideshow/carousel -->
@@ -363,6 +365,23 @@
                                                         <div class="progress">
                                                             <div class="progress-bar progress-bar-striped progress-bar-animated"
                                                                 style="width:60%">progress 60%
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="carousel-item">
+                                                    <button class="btn-transparent" data-bs-toggle="modal"
+                                                        data-bs-target="#Modal6">
+                                                        <img class="img-fluid img-projects"
+                                                            src="imagenes/Proyectos/CSR.JPG" alt="RaceGame">
+                                                    </button>
+                                                    <div class="container mt-3">
+                                                        <h2>Juego Android (ClioSportRace) </h2>
+                                                        <div class="progress">
+                                                            <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                                                style="width:60%">progress 85%
                                                             </div>
                                                         </div>
                                                     </div>
@@ -509,7 +528,7 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel5">Camara de deteccion de Objetos</h5>
+                        <h5 class="modal-title" id="exampleModalLabel5">Cámara de deteccion de Objetos</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
@@ -524,6 +543,48 @@
                 </div>
             </div>
         </div>
+
+
+        <div class="modal fade" id="Modal6" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel6">Juego de carreras</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            Juego creado con Android Studio que trata de ir esquivando vehiculos y recogiendo gasolina
+                            que hará incrementar la puntuación.
+                            <br>
+                            Aún en desarrollo. Podrás bajar el .APK en cuanto esté finalizado. Paciencia...
+                            <br>
+                        <div style="text-align: center;">
+                            <button class="shadowBtn disabled"
+                                style="align-items: center; background-color: whitesmoke !important;"
+                                id="downloadButton1"><a download="">Descargar
+                                    apk</a>
+                            </button>
+                        </div>
+
+                        </p>
+                        <div class="align-content-center img-modal">
+                            <!--<img src="imagenes/Proyectos/ClioSportRace.mp4" class="img-fluid" alt="Responsive image" />-->
+                            <video src="imagenes/Proyectos/ClioSportRace.mp4" autoplay muted loop class="img-fluid"
+                                alt="Responsive image"></video>
+                            <img src="imagenes/Proyectos/CSR2.JPG" class="img-fluid" alt="Responsive image" />
+                            <img src="imagenes/Proyectos/CSR3.JPG" class="img-fluid" alt="Responsive image" />
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
     </div>
 
 
