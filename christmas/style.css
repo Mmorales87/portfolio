@@ -1,0 +1,55 @@
+/* Created by Qudusayo */
+
+/* Created by Index */
+
+body {
+    font-family: 'Righteous', cursive; color:white; text-align: center; background: #3a3a3a;
+    -webkit-animation: snow 20s linear infinite;
+    -moz-animation: snow 20s linear infinite;
+    -ms-animation: snow 20s linear infinite;
+    animation: snow 20s linear infinite;
+    background-image: src="//";
+  }
+
+  
+video {
+  position: fixed;
+  right: 0;
+  min-width: 105%;
+  min-height: 100%;
+  transform: translateX(calc((100% - 100vw) / 2));
+  z-index: -2;
+}
+  
+  /* @-moz-keyframes snow {
+    0% { background-position: 0px, 0px, 0px, 0xp, 0xp, 0xp}
+    50% { background-color: #dc5959 }
+    100% { background-position: 500px 1000px, 400px 400px, 300px 300px;
+    background-color: #dd4848;
+    }
+  }
+  @-webkit-keyframes snow {
+    0% { background-position: 0px, 0px, 0px, 0xp, 0xp, 0xp}
+    50% { background-color: #dc5959 }
+    100% { background-position: 500px 1000px, 400px 400px, 300px 300px;
+    background-color: #dd4848;}
+  }
+ @-ms-keyframes snow {
+    0% { background-position: 0px, 0px, 0px, 0xp, 0xp, 0xp}
+    50% { background-color: #dc5959 }
+    100% { background-position: 500px 1000px, 400px 400px, 300px 300px;
+    background-color: #dd4848;
+    }
+  }
+  
+  @keyframes snow {
+    0% { background-position: 0px, 0px, 0px, 0xp, 0xp, 0xp}
+    50% { background-color: #dc5959 }
+    100% { background-position: 500px 1000px, 400px 400px, 300px 300px;
+    background-color: #dd4848;
+    }
+  } */
+  
+  
+  
+  

@@ -30,6 +30,15 @@ body{
     background-color: whitesmoke;
 }
 
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
 .section-container{
     height: 40vh;
     margin-top: 50px;
@@ -44,6 +53,11 @@ body{
         100% calc(100% - 90px),
         0% 100%
     );
+}
+
+.nav-list{
+    padding-left: 40px;
+    padding-right: 60px;
 }
 
 
@@ -547,6 +561,24 @@ a:hover{
 .created-by{
     text-align: end;
     font-size: .8rem;
+}
+
+@media only screen and (max-width: 992px) {
+
+    
+    .nav-dark-button{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar-brand {
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+}
+    
 }
 
 
