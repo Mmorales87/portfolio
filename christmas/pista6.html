@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background: url('https://images.alphacoders.com/963/963368.png') center/cover no-repeat;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 20% auto;
+            /* Ajusta según tu preferencia */
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        .separacion {
+            padding: 10px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        ul {
+            padding: 0;
+            list-style-type: none;
+        }
+
+        li {
+            display: inline-block;
+            margin: 5px;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
+
+        input {
+            padding: 10px;
+            margin: 10px 0;
+            width: 80%;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <script>
+        function selectOption(option) {
+            document.getElementById('respuesta').value = option;
+        }
+    </script>
+    <title>Pregunta número 6</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Pregunta número 6</h1>
+        <h3>El regalo 6 está dentro del armario del baño.</h3>
+        <p>Dejemos de lado las preguntas de Ranma ya, y vayamos a algo más serio...</p>
+        <!-- <h3 class="separacion">Si yo tuviera que elegir una canción para el día de mi entierro, cúal sería?</h3> -->
+        <ul>
+            <li onclick="selectOption('Xque vol.7 Thank you')">Xque vol.7 - Thank you</li>
+            <li onclick="selectOption('Interstellar - S.T.A.Y')">Interstellar - S.T.A.Y</li>
+            <li onclick="selectOption('KinHoobastank - The Reasonnosuke')">Hoobastank - The Reason</li>
+            <li onclick="selectOption('Coldplay - A Sky Full Of Star')">Coldplay - A Sky Full Of Star</li>
+        </ul>
+        <input type="text" id="respuesta" placeholder="Escribe tu respuesta">
+        <button onclick="verificarRespuesta6()">Siguiente</button>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="pista1.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background: url('https://images7.alphacoders.com/326/326101.jpg') center/cover no-repeat;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 20% auto;
+            /* Ajusta según tu preferencia */
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        .separacion {
+            padding: 10px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        ul {
+            padding: 0;
+            list-style-type: none;
+        }
+
+        li {
+            display: inline-block;
+            margin: 5px;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
+
+        input {
+            padding: 10px;
+            margin: 10px 0;
+            width: 80%;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <script>
+        function selectOption(option) {
+            document.getElementById('respuesta2').value = option;
+        }
+    </script>
+    <title>Pregunta número 2</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Pregunta número 2</h1>
+        <h3>Busca en lo alto del armario para encontrar la próxima pregunta.</h3>
+        <!-- <p>Gracias al Kinjakan (y a su gran sentido de la orientación) Ryoga llega a:</p> -->
+        <ul>
+            <li onclick="selectOption('Moscu')">Moscu</li>
+            <li onclick="selectOption('Tokyo')">Tokyo</li>
+            <li onclick="selectOption('Sebastopol')">Sebastopol</li>
+            <li onclick="selectOption('El monte Fuji')">El monte Fuji</li>
+        </ul>
+        <input type="text" id="respuesta2" placeholder="Escribe tu respuesta">
+        <button onclick="verificarRespuesta2()">Siguiente</button>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="pista1.js"></script>
+</body>
+
+</html>
